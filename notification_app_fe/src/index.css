@@ -1,0 +1,21 @@
+:root {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  color: #101418;
+  background-color: #f4f1ed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(88, 129, 87, 0.14), transparent 55%),
+    linear-gradient(180deg, #f8f6f1 0%, #f0ebe6 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
